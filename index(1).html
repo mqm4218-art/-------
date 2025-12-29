@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>منتجع الأمواج | أكواخ ومسبح وملعب</title>
+  <meta name="description" content="منتجع الأمواج في الناصرية – أكواخ متكاملة (غرفة، مطبخ، حمّام)، مسبح، ملعب، جلسات عائلية.">
+  <meta name="keywords" content="منتجع الناصرية, منتجع الأمواج, أكواخ الناصرية, منتجع ذي قار">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Tahoma, sans-serif; margin:0; background:#f4f6f5; color:#222; }
+    header { background:#003366; color:white; padding:25px; text-align:center; }
+    nav { background:#003366; text-align:center; }
+    nav a { color:white; padding:12px; display:inline-block; text-decoration:none; font-size:15px; }
+    nav a:hover { background:#002244; }
+    section { background:white; margin:12px; padding:20px; border-radius:8px; }
+    h2 { color:#003366; }
+    ul { padding-right:20px; }
+    iframe { width:100%; height:280px; border:0; border-radius:6px; }
+    #contact { text-align:center; }
+    .btn { background:#25D366; color:white; padding:14px 26px; font-size:16px; border:none; border-radius:8px; cursor:pointer; margin-top:10px; }
+    .btn:hover { background:#1ebe5d; }
+    footer { text-align:center; padding:15px; font-size:14px; color:#555; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>منتجع الأمواج</h1>
+  <p>الناصرية – الخميسات – الجسر المالح</p>
+</header>
+
+<nav>
+  <a href="#about">عن المنتجع</a>
+  <a href="#services">الخدمات</a>
+  <a href="#location">الموقع</a>
+  <a href="#contact">الحجز</a>
+</nav>
+
+<section id="about">
+  <h2>عن المنتجع</h2>
+  <p>منتجع الأمواج في الناصرية – الخميسات الجسر المالح، يوفر أكواخ متكاملة تحتوي على غرفة نوم ومطبخ وحمّام، مع مسبح وملعب وجلسات عائلية في أجواء هادئة ومناسبة للعوائل.</p>
+</section>
+
+<section id="services">
+  <h2>الخدمات</h2>
+  <ul>
+    <li>🏡 كوخ متكامل (غرفة + مطبخ + حمّام)</li>
+    <li>🏊 مسبح</li>
+    <li>⚽ ملعب</li>
+    <li>🌴 جلسات عائلية</li>
+  </ul>
+</section>
+
+<section id="location">
+  <h2>الموقع</h2>
+  <p>📍 الناصرية – الخميسات – الجسر المالح</p>
+  <iframe src="https://www.google.com/maps?q=الناصرية الخميسات الجسر المالح&output=embed" loading="lazy"></iframe>
+</section>
+
+<section id="contact">
+  <h2>الحجز والمراسلة</h2>
+  <p>📞 رقم الحجز: <strong>+964 788 723 7115</strong></p>
+  <button class="btn" onclick="openWhatsApp()">💬 مراسلة عبر واتساب</button>
+</section>
+
+<footer>© منتجع الأمواج – الناصرية</footer>
+
+<script>
+function openWhatsApp() {
+  const phone = "9647887237115";
+  const message = "السلام عليكم، أريد الاستفسار عن الحجز في منتجع الأمواج.";
+  const url = "https://wa.me/" + phone + "?text=" + encodeURIComponent(message);
+  window.open(url, "_blank");
+}
+</script>
+
+</body>
+</html>
